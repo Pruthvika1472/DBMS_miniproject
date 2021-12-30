@@ -1,0 +1,79 @@
+h1,h2{
+   color: black;
+  text-shadow: 8px 10px 8px ;
+  margin: 30px 0;
+  }
+
+input[type=text], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 20px px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  box-sizing: border-box;
+}
+
+
+input[type=email], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 20px 18px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  box-sizing: border-box;
+}
+
+
+input[type=password], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  box-sizing: border-box;
+}
+
+
+ 
+input[type=textarea ], select {
+  width: 30%;
+  padding: 12px 50px;
+  margin: 20px px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  box-sizing: border-box;
+}
+input[type=tel], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 5px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 12%;
+  background-color:red;      
+  color: white;
+  padding: 15px 20px;
+  margin: 20px 20px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: green
+}
+
+div {
+  border-radius: 5px;   
+  padding:150px;
+
+}
