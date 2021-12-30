@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pharmacy Dashboard</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float:left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 100px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Pharmacy Management System Dashboard</h1>
+</div>
+
+<div class="topnav">
+<a href="#">HOME</a>
+<a href="#">PHARMACISTS</a>
+<a href="#">SUPPLIERS</a>
+<a href="#">MEDICINES</a>
+<a href="#">CUSTOMERS</a>
+
+
+</body>
+</html>
+
+
+<?php
+          require "php/header.php";
+          createHeader('home', 'Dashboard', 'Home');
+        ?>
